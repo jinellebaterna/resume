@@ -16,7 +16,7 @@ class Profile extends React.Component {
         <hr className={styles.bar} />
         <p className={styles.profileObjective}>
           Frontend Developer with experience in Project Management, UX design,
-          and Business Development.
+          and Business Dev't.
         </p>
 
         <hr className={styles.bar} />
