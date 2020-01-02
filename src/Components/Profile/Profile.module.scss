@@ -1,0 +1,40 @@
+.profile {
+  //background: linen;
+  padding: 20px;
+  margin: 8px;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.profileImage {
+  height: 200px;
+  display: flex;
+  width: 200px;
+}
+
+.profileObjective {
+  padding: 20px;
+}
+
+.profileName {
+  margin: 0px;
+  justify-content: center;
+  font-size: 24px;
+  display: flex;
+}
+
+.profilePosition {
+  font-size: 17px;
+  justify-content: center;
+  margin: 0px;
+  display: flex;
+}
+
+.profileContact {
+  padding: 20px;
+}
+
+.bar {
+  border-top: 3px solid black;
+  width: 100%;
+}
