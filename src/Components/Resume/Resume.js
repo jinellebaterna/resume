@@ -7,7 +7,7 @@ import Profile from "../Profile/Profile";
 class Resume extends React.Component {
   render() {
     return (
-      <div className={styles.profileContent}>
+      <div className={styles.resume}>
         <Profile />
         <div className={styles.resumeContent}>
           <h3> Work Experience </h3>
