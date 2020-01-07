@@ -4,12 +4,10 @@ import styles from "./Job.module.scss";
 class Job extends React.Component {
   render() {
     return (
-      <div className={styles.workExperience}>
-        <h6>
-          {this.props.duration} <br />
-          {this.props.position} <br />
-          {this.props.companyName} <br />
-        </h6>
+      <div className={styles.job}>
+        <h5 className={styles.position}>{this.props.position}</h5>
+        <h6 className={styles.companyName}>{this.props.companyName}</h6>
+        <h6 className={styles.duration}>({this.props.duration})</h6>
         {this.props.responsibilities && (
           <>
             <h6> Responsibilities:</h6>

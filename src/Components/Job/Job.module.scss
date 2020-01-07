@@ -1,21 +1,22 @@
-.workExperience {
-  //background-color: red;
-
-
-  .date {
-    margin-bottom: 0;
-    font-size: 14px;
+.job {
+  &:not(:last-child) {
+    margin-bottom: 40px;
   }
 
-  .position {
-    margin-top: 0px;
-    margin-bottom: 7px;
-    display: flex;
+  .position, .companyName, .duration {
+    margin: 0;
+    line-height: 1.4;
   }
 
-  .company {
-    font-size: 17px;
-    margin-top: 0px;
-    font-weight: 400;
+  .position, .companyName {
+    font-weight: normal;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+  }
+
+  .duration {
+    font-style: italic;
   }
 }

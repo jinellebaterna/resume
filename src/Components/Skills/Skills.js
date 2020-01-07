@@ -7,7 +7,7 @@ class Skills extends React.Component {
       <div className={styles.skills}>
         {this.props.items && (
           <>
-            <h4>Skills</h4>
+            <h3>Skills</h3>
             <ul>
               {this.props.items.map(s => <li>{s}</li>)}
             </ul>
