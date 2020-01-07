@@ -10,20 +10,20 @@ class App extends React.Component {
       <div className={styles.app}>
         <div>
           <Layout>
-            <Header className={styles.header} title=" ">
-              <Navigation>
-                <Link to="/"> Resume</Link>
-                <Link to="/projects"> Projects</Link>
-                <Link to="/contact"> Contact</Link>
-              </Navigation>
-            </Header>
-            <Drawer title="">
-              <Navigation>
-                <Link to="/"> Resume</Link>
-                <Link to="/projects"> Projects</Link>
-                <Link to="/contact"> Contact</Link>
-              </Navigation>
-            </Drawer>
+            {/*<Header className={styles.header} title=" ">*/}
+            {/*  <Navigation>*/}
+            {/*    <Link to="/"> Resume</Link>*/}
+            {/*    <Link to="/projects"> Projects</Link>*/}
+            {/*    <Link to="/contact"> Contact</Link>*/}
+            {/*  </Navigation>*/}
+            {/*</Header>*/}
+            {/*<Drawer title="">*/}
+            {/*  <Navigation>*/}
+            {/*    <Link to="/"> Resume</Link>*/}
+            {/*    <Link to="/projects"> Projects</Link>*/}
+            {/*    <Link to="/contact"> Contact</Link>*/}
+            {/*  </Navigation>*/}
+            {/*</Drawer>*/}
             <Content>
               <Main />
             </Content>
