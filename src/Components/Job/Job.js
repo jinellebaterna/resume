@@ -6,7 +6,7 @@ class Job extends React.Component {
     return (
       <div className={styles.workExperience}>
         <h6>
-          {this.props.employmentDuration} <br />
+          {this.props.duration} <br />
           {this.props.position} <br />
           {this.props.companyName} <br />
         </h6>

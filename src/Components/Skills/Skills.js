@@ -5,11 +5,11 @@ class Skills extends React.Component {
   render() {
     return (
       <div className={styles.skills}>
-        {this.props.skills && (
+        {this.props.items && (
           <>
             <h4>Skills</h4>
             <ul>
-              {this.props.skills.map(s => <li>{s}</li>)}
+              {this.props.items.map(s => <li>{s}</li>)}
             </ul>
           </>
         )}

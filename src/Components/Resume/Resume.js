@@ -10,7 +10,7 @@ class Resume extends React.Component {
     return (
       <div className={styles.resume}>
         <Profile {...resumeData.profile} />
-        <Content />
+        <Content experience={resumeData.experience} skills={resumeData.skills} />
       </div>
     );
   }

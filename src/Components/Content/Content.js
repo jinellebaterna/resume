@@ -7,26 +7,8 @@ class Content extends React.Component {
   render() {
     return (
       <div className={styles.content}>
-        <Experience />
-        <Skills skills={[
-          "Project Management",
-          "Product Management",
-          "Quality Assurance",
-          "Amazon Web Services",
-          "React",
-          "Sass",
-          "Javascript",
-          "HTML",
-          "CSS",
-          "User Experience Design",
-          "Sketch",
-          "Zeplin",
-          "Invision",
-          "Adobe XD",
-          "Balsamiq",
-          "Prototyping",
-          "Usability Testing"
-        ]} />
+        <Experience items={this.props.experience} />
+        <Skills items={this.props.skills} />
       </div>
     );
   }
