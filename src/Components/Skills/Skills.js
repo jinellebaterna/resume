@@ -1,11 +1,18 @@
 import React from "react";
-import Markdown from "../../Markdown";
+import styles from "./Skills.module.scss";
 
 class Skills extends React.Component {
   render() {
     return (
-      <div>
-        <Markdown text={this.props.skill} />
+      <div className={styles.skills}>
+        {this.props.skills && (
+          <>
+            <h4>Skills</h4>
+            <ul>
+              {this.props.skills.map(s => <li>{s}</li>)}
+            </ul>
+          </>
+        )}
       </div>
     );
   }
