@@ -1,7 +1,13 @@
 import React from "react";
 import styles from "./Profile.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faMapPin,
+  faMobile
+} from "@fortawesome/free-solid-svg-icons";
 
-class Profile extends React.Component {
+export default class Profile extends React.Component {
   render() {
     return (
       <div className={styles.profile}>
@@ -10,28 +16,27 @@ class Profile extends React.Component {
           src="https://webstockreview.net/images/professional-clipart-female-avatar-16.png"
           alt="avatar"
         />
-
-        <h2 className={styles.profileName}> Jinelle Marie R. Baterna</h2>
-        <h4 className={styles.profilePosition}> Frontend / UX Engineer </h4>
+        <h2 className={styles.profileName}>{this.props.name}</h2>
+        <h4 className={styles.profilePosition}>{this.props.position}</h4>
         <hr className={styles.bar} />
-        <p className={styles.profileObjective}>
-          Frontend Developer with experience in Project Management, UX design,
-          and Business Dev't.
-        </p>
-
+        <p className={styles.profileObjective}>{this.props.headline}</p>
         <hr className={styles.bar} />
-        <div className={styles.profileContact}>
-          <h5>Address:</h5>
-          <p> Toronto, Ontario, Canada</p>
-          <h5>Mobile Number:</h5>
-          <p> (437)788-1125</p>
-          <h5>Email Address:</h5>
-          <p> me@jinelle.net</p>
+        <div className={styles.profileObjective}>
+          <p>
+            <FontAwesomeIcon className={styles.icon} icon={faMapPin} />{" "}
+            {this.props.location}
+          </p>
+          <p>
+            <FontAwesomeIcon className={styles.icon} icon={faMobile} />
+            {this.props.mobileNumber}
+          </p>
+          <p>
+            <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />{" "}
+            {this.props.email}
+          </p>
         </div>
         <hr className={styles.bar} />
       </div>
     );
   }
 }
-
-export default Profile;

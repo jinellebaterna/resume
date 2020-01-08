@@ -1,0 +1,22 @@
+.job {
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .position, .companyName, .duration {
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .position, .companyName {
+    font-weight: normal;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+  }
+
+  .duration {
+    font-style: italic;
+  }
+}
