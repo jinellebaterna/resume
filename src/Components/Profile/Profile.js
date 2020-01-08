@@ -19,22 +19,20 @@ export default class Profile extends React.Component {
         <h2 className={styles.profileName}>{this.props.name}</h2>
         <h4 className={styles.profilePosition}>{this.props.position}</h4>
         <hr className={styles.bar} />
-        <p className={styles.profileObjective}>
-          {this.props.headline}
-        </p>
+        <p className={styles.profileObjective}>{this.props.headline}</p>
         <hr className={styles.bar} />
         <div className={styles.profileObjective}>
           <p>
-            <FontAwesomeIcon className={styles.icon} icon={faMapPin} /> Toronto,
-            Ontario, Canada{" "}
+            <FontAwesomeIcon className={styles.icon} icon={faMapPin} />{" "}
+            {this.props.location}
           </p>
           <p>
             <FontAwesomeIcon className={styles.icon} icon={faMobile} />
-            (437) 788-1125
+            {this.props.mobileNumber}
           </p>
           <p>
             <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />{" "}
-            me@jinelle.net
+            {this.props.email}
           </p>
         </div>
         <hr className={styles.bar} />
