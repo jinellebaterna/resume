@@ -11,11 +11,13 @@ export default class Profile extends React.Component {
   render() {
     return (
       <div className={styles.profile}>
-        <img
-          className={styles.profileImage}
-          src="https://webstockreview.net/images/professional-clipart-female-avatar-16.png"
-          alt="avatar"
-        />
+        <div className={styles.imgContainer}>
+          <img
+            className={styles.profileImage}
+            src="photo.jpg"
+            alt="profile photo"
+          />
+        </div>
         <h2 className={styles.profileName}>{this.props.name}</h2>
         <h4 className={styles.profilePosition}>{this.props.position}</h4>
         <hr className={styles.bar} />
