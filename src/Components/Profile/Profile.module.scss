@@ -5,13 +5,23 @@
   flex-direction: column;
   background-color: lavender;
   max-width: 350px;
+  font-family: "Roboto";
 
-  .profileImage {
-    height: 200px;
-    display: flex;
-    width: 200px;
-    margin: 60px;
+  @media only screen and (max-width: 415px) {
+    max-width: none;
   }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+    .profileImage {
+      display: flex;
+      width: 200px;
+    }
+  }
+
 
   .profileName {
     margin: 0px;
