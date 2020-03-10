@@ -11,7 +11,7 @@ export default {
   experience: [
     {
       companyName: "Mrkdwn, Inc.",
-      position: "Frontend / UX Engineer",
+      position: "UX / Frontend Engineer",
       duration: "January 2018 to Present",
       responsibilities: [
         "Designed adaptive layouts for consistent user experience across the product.",
@@ -41,6 +41,8 @@ export default {
     "Project Management",
     "Product Management",
     "Quality Assurance",
+    "Account Management",
+    "Business Development",
     "Amazon Web Services",
     "React",
     "Sass",
