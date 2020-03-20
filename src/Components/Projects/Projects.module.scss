@@ -1,25 +1,52 @@
-.container {
-  padding: 30px;
+.main {
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  margin: 1.5rem auto;
-  max-width: 750px;
+  flex-direction: row;
+  //background-color: lavender;
 
-  > ul,
-  li {
+  .bannerContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style: none;
-    text-decoration: none;
-    padding: 10px;
-    text-align: center;
 
-    > a {
-      font-size: 20px;
-      color: black;
-      cursor: pointer;
-      text-decoration: none;
+    .banner {
+      display: flex;
+      flex-direction: column;
+      max-width: 630px;
+    }
+
+    @media only screen and (max-width: 415px) {
+      display: none;
     }
   }
+
+  .projects {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    max-width: 780px;
+
+    > ul,
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 10px;
+      font-weight: 300;
+      font-size: 15px;
+      font-family: Abel, serif;
+
+      > h2 {
+        font-size: 40px;
+        padding: 10px;
+      }
+      > a {
+        font-size: 23px;
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+
+
 }
