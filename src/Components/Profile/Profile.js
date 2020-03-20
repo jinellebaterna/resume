@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faMapPin,
-  faMobile
+  faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default class Profile extends React.Component {
