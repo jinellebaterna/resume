@@ -4,15 +4,16 @@
   width: 100%;
 
   .header {
+    display: flex;
     background-color: black;
     box-shadow: none;
+
+    @media only screen and (max-width: 415px) {
+      display: none;
+    }
   }
 
   .container {
     height: 200px;
   }
 }
-
-
-
-
