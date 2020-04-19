@@ -6,31 +6,37 @@ import {
   faMapPin,
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
+import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 
 export default class Profile extends React.Component {
   render() {
+    const {name, position, headline, location, mobileNumber, email, linkedIn } = this.props;
     return (
       <div className={styles.profile}>
         <div className={styles.imgContainer}>
           <img className={styles.profileImage} src="photo.jpg" alt="profile" />
         </div>
-        <h2 className={styles.name}>{this.props.name}</h2>
-        <h4 className={styles.position}>{this.props.position}</h4>
+        <h2 className={styles.name}>{name}</h2>
+        <h4 className={styles.position}>{position}</h4>
         <hr className={styles.bar} />
-        <p className={styles.headline}>{this.props.headline}</p>
+        <p className={styles.headline}>{headline}</p>
         <hr className={styles.bar} />
         <div>
           <p className={styles.contacts}>
             <FontAwesomeIcon className={styles.icon} icon={faMapPin} />{" "}
-            {this.props.location}
+            {location}
           </p>
           <p className={styles.contacts}>
             <FontAwesomeIcon className={styles.icon} icon={faMobile} />
-            {this.props.mobileNumber}
+            {mobileNumber}
           </p>
           <p className={styles.contacts}>
             <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />{" "}
-            {this.props.email}
+            {email}
+          </p>
+          <p className={styles.contacts}>
+            <FontAwesomeIcon className={styles.icon} icon={faLinkedinIn} />
+            {linkedIn}
           </p>
         </div>
         <hr className={styles.bar} />

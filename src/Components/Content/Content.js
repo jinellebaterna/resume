@@ -5,10 +5,11 @@ import styles from "./Content.module.scss"
 
 class Content extends React.Component {
   render() {
+    const { experience, skills } = this.props;
     return (
       <div className={styles.content}>
-        <Experience items={this.props.experience} />
-        <Skills items={this.props.skills} />
+        <Experience items={experience} />
+        <Skills items={skills} />
       </div>
     );
   }

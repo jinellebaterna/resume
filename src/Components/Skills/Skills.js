@@ -3,13 +3,14 @@ import styles from "./Skills.module.scss";
 
 class Skills extends React.Component {
   render() {
+    const { items } = this.props;
     return (
       <div>
-        {this.props.items && (
+        {items && (
           <>
             <h3 className={styles.skills}>Skills</h3>
             <ul>
-              {this.props.items.map(s => <li>{s}</li>)}
+              {items.map(s => <li>{s}</li>)}
             </ul>
           </>
         )}
