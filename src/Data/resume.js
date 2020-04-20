@@ -4,6 +4,7 @@ export default {
     position: "UX / Frontend Engineer",
     email: "me@jinelle.net",
     mobileNumber: "(437) - 7881125",
+    linkedIn: "linkedin.com/in/jinellebaterna",
     location: "Toronto, Ontario, Canada",
     headline:
       "Frontend Developer with experience in Project Management, UX design, and Business Dev't."

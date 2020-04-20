@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
+    "@iconify/icons-fa-brands": "^1.0.11",
+    "@iconify/react": "^1.1.3",
     "marked": "^0.7.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
