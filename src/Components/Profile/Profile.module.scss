@@ -1,21 +1,21 @@
 .profile {
-  padding: 10px;
-  margin: 0;
   display: flex;
-  flex-direction: column;
-  background-color: lavender;
-  max-width: 350px;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #e1c1b7;
+  height: 100%;
   font-size: 15px;
   font-family: Abel, serif;
+  color: black;
 
   @media only screen and (max-width: 415px) {
-    max-width: none;
+    flex-direction: column;
   }
 
   .imgContainer {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    padding: 20px;
 
     .profileImage {
       display: flex;
@@ -25,53 +25,54 @@
   }
 
   .name,
-  .position,
-  .headline {
-    font-family: Abel, serif;
-    display: flex;
-    margin: 0;
-  }
-
-  .name {
-    font-size: 28px;
-    justify-content: center;
-  }
   .position {
-    font-size: 20px;
-    justify-content: center;
-    padding-bottom: 10px;
-  }
-
-  .headline {
-    padding: 15px;
-    text-align: left;
-  }
-
-  .bar {
-    border-top: 3px solid black;
-    width: 100%;
-  }
-
-  .contacts {
-    padding: 10px 15px 10px 15px;
+    font-family: Abel, serif;
     margin: 0;
+  }
 
-    .icon {
+  .nameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media only screen and (max-width: 415px) {
+      text-align: center;
+    }
+
+    .name {
+      font-size: 40px;
+    }
+    .position {
       font-size: 20px;
-      margin-right: 10px;
-      color: black;
-    }
-
-    .linkedIn {
-      color: black;
-      text-decoration: none;
-      cursor: pointer;
-    }
-
-    .downloadCV {
-      color: black;
-      text-decoration: none;
-      cursor: pointer;
     }
   }
+
+  .contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media only screen and (max-width: 415px) {
+      text-align: left;
+      margin: auto;
+    }
+
+    .contacts {
+      padding: 10px;
+      margin: 0;
+
+      .icon {
+        font-size: 20px;
+        margin-right: 10px;
+        color: slategray;
+      }
+
+      .linkedIn {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+
 }

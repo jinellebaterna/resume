@@ -6,7 +6,7 @@ import Resume from "./Resume/Resume";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Resume} />
-    <Route path="/projects" component={Projects} />
+    {/*<Route path="/projects" component={Projects} />*/}
   </Switch>
 );
 
