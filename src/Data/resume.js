@@ -8,8 +8,9 @@ export default {
     mobileNumber: "(437) - 7881125",
     linkedIn: "linkedin.com/in/jinellebaterna",
     location: "Toronto, Ontario, Canada",
-    headline:
-      "Frontend Developer with experience in Project Management, UX design, and Business Dev't."
+  },
+  headline: {
+    summary: "Highly motivated, Frontend Developer seeking to launch a career building web applications and create a high quality products. With experience in Project Management, UX design, and Business Dev't."
   },
   experience: [
     {
@@ -44,29 +45,28 @@ export default {
   skills: {
     technical: [
       "React",
-      "Sass",
       "Javascript",
       "HTML",
+      "Sass",
       "CSS",
-      "Node.js"
+      "Node.js",
+      "Amazon Web Services"
     ],
     others: [
       "Project Management",
       "Product Management",
-      "Quality Assurance",
+      "User Experience Design",
+      "Usability Testing",
       "Account Management",
       "Business Development",
-      "Amazon Web Services",
-      "User Experience Design",
-      "Usability Testing"
+      "Quality Assurance"
     ],
     tools: [
       "Sketch",
       "Zeplin",
       "Invision",
       "Adobe XD",
-      "Balsamiq",
-      "Prototyping"
+      "Balsamiq"
     ]
   }
 };

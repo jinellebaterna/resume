@@ -1,7 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding-right: 100px;
+  max-width: 850px;
+  padding-right: 200px;
 
   @media only screen and (max-width: 415px) {
     padding-right: 0;

@@ -29,6 +29,8 @@ export default class Profile extends React.Component {
         <div/>
         <div/>
         <div/>
+        <div/>
+        <div/>
         <div className={styles.contactsContainer}>
           <p className={styles.contacts}>
             <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
@@ -54,8 +56,6 @@ export default class Profile extends React.Component {
             {location}
           </p>
         </div>
-        <div />
-        <div />
         <div />
         <div />
       </div>
