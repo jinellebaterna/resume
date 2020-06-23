@@ -6,8 +6,8 @@ class Experience extends React.Component {
   render() {
     const { items } = this.props;
     return (
-      <div >
-        <h3 className={styles.experience}>Work Experience</h3>
+      <div className={styles.container}>
+        <h3 className={styles.experience}>|| WORK EXPERIENCE</h3>
         {items.map(job => <Job {...job} />)}
       </div>
     );
