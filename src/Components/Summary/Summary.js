@@ -6,7 +6,7 @@ class Summary extends React.Component {
     const { summary } = this.props;
     return (
       <div className={styles.container}>
-        <h3 className={styles.headline}>|| CAREER SUMMARY</h3>
+        <h3 className={styles.headline}>|| ABOUT ME</h3>
         <p>{summary}</p>
       </div>
     );
