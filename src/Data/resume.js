@@ -27,14 +27,14 @@ export default {
       position: "Project Manager",
       duration: "February 2013 to December 2017",
       responsibilities: [
-        "Responsible for the definition of project scope and objectives, involving all relevant stakeholders, and ensuring technical feasibility.",
-        "Developed full-scale project plans, goals and associated communications documents, project timelines, and milestones using appropriate tools.",
-        "Coordinated internal resources and third parties/vendors for the flawless execution of projects.",
-        "Successfully managed project stakeholders",
-        "Led development of sales proposals, project plans and RFP responses.",
-        "Prospected and negotiated terms of contract with new clients.",
-        "Maintained client relationships.",
+        "Identified plans and resources required to meet project goals and objectives by setting realistic timelines and checkpoints.",
+        "Developed and initiated projects, including managing costs, schedule and performance.",
         "Managed changes in project scope, identify potential crises, devise contingency plans and functioned as an escalation point.",
+        "Developed highly profitable pipeline based on multiple sales penetration techniques.",
+        "Elevated account management by predicting potential competitive threats and outlining proactive solutions.",
+        "Coordinated internal resources and third parties/vendors for the flawless execution of projects.",
+        "Identified key products, services and customers and used data to devise innovative sales and marketing plans enabling dramatic growth.",
+        "Met frequently with technical, product management and service personnel to stay current on company offerings and business policies.",
         "Led QA testing to ensure projects were implemented according to specification and have minimal bugs.",
         "Involved in user interviews and usability testing."
       ]
