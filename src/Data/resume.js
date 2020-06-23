@@ -1,5 +1,3 @@
-import React from "react";
-
 export default {
   profile: {
     name: "Jinelle Marie R. Baterna",
