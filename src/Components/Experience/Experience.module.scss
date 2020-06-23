@@ -1,5 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
 
-.experience {
-  font-family: Abel, serif;
+  @media only screen and (max-width: 415px) {
+    padding-right: 0;
+  }
 
+  .experience {
+    font-family: Abel, serif;
+    color: palevioletred;
+    font-weight: bolder;
+  }
 }

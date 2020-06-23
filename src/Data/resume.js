@@ -1,3 +1,5 @@
+import React from "react";
+
 export default {
   profile: {
     name: "Jinelle Marie R. Baterna",
@@ -39,25 +41,32 @@ export default {
       ]
     }
   ],
-  skills: [
-    "Project Management",
-    "Product Management",
-    "Quality Assurance",
-    "Account Management",
-    "Business Development",
-    "Amazon Web Services",
-    "React",
-    "Sass",
-    "Javascript",
-    "HTML",
-    "CSS",
-    "User Experience Design",
-    "Sketch",
-    "Zeplin",
-    "Invision",
-    "Adobe XD",
-    "Balsamiq",
-    "Prototyping",
-    "Usability Testing"
-  ]
+  skills: {
+    technical: [
+      "React",
+      "Sass",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
+    others: [
+      "Project Management",
+      "Product Management",
+      "Quality Assurance",
+      "Account Management",
+      "Business Development",
+      "Amazon Web Services",
+      "User Experience Design",
+      "Usability Testing"
+    ],
+    tools: [
+      "Sketch",
+      "Zeplin",
+      "Invision",
+      "Adobe XD",
+      "Balsamiq",
+      "Prototyping"
+    ]
+  }
 };

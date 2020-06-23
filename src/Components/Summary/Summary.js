@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./Summary.module.scss";
 
 class Summary extends React.Component {
   render() {
     return (
-      <div>
-        <h3>Career Summary</h3>
+      <div className={styles.container}>
+        <h3 className={styles.headline}>|| CAREER SUMMARY</h3>
         <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec
           blandit lacus. Fusce consequat, lectus a consectetur tristique, odio
