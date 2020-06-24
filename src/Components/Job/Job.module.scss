@@ -3,7 +3,7 @@
     margin-bottom: 40px;
   }
 
-  .position, .companyName, .duration {
+  .position, .companyName, .duration, .responsibilitiesTitle {
     margin: 0;
     line-height: 1.4;
     font-family: Abel, serif;
@@ -11,17 +11,50 @@
 
   .position {
     font-weight: bold;
+    font-size: 18px;
+
+    @media only screen and (max-width: 415px) {
+      font-size: 20px;
+    }
   }
 
   .companyName {
     font-weight: normal;
+    font-size: 15px;
+
+    @media only screen and (max-width: 415px) {
+      font-size: 18px;
+    }
   }
 
   .companyName {
     text-transform: uppercase;
+    font-size: 15px;
+
+    @media only screen and (max-width: 415px) {
+      font-size: 18px;
+    }
   }
 
   .duration {
     font-style: italic;
+    margin-top: 0;
+  }
+
+  .responsibilitiesTitle {
+    font-size: 15px;
+    margin-top: 10px;
+
+    @media only screen and (max-width: 415px) {
+      font-size: 18px;
+    }
+
+    .responsibilities {
+      font-size: 15px;
+
+      @media only screen and (max-width: 415px) {
+        font-size: 18px;
+      }
+    }
   }
 }
