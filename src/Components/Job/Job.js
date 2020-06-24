@@ -11,10 +11,10 @@ class Job extends React.Component {
         <h6 className={styles.duration}>({duration})</h6>
         {responsibilities && (
           <>
-            <h6> Responsibilities:</h6>
+            <h6 className={styles.responsibilitiesTitle}>Responsibilities:</h6>
             <ul>
               {responsibilities.map(r => (
-                <li>{r}</li>
+                <li className={styles.responsibilities}>{r}</li>
               ))}
             </ul>
           </>
