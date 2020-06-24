@@ -40,21 +40,21 @@
     font-style: italic;
     margin-top: 0;
   }
+}
 
-  .responsibilitiesTitle {
-    font-size: 15px;
-    margin-top: 10px;
+.responsibilitiesTitle {
+  font-size: 15px;
+  margin-top: 10px;
 
-    @media only screen and (max-width: 415px) {
-      font-size: 18px;
-    }
+  @media only screen and (max-width: 415px) {
+    font-size: 18px;
+  }
+}
 
-    .responsibilities {
-      font-size: 15px;
+.responsibilities {
+  font-size: 15px;
 
-      @media only screen and (max-width: 415px) {
-        font-size: 18px;
-      }
-    }
+  @media only screen and (max-width: 415px) {
+    font-size: 18px;
   }
 }
