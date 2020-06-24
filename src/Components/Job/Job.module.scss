@@ -3,7 +3,7 @@
     margin-bottom: 40px;
   }
 
-  .position, .companyName, .duration, .responsibilitiesTitle {
+  .position, .companyName, .duration {
     margin: 0;
     line-height: 1.4;
     font-family: Abel, serif;
@@ -45,6 +45,7 @@
 .responsibilitiesTitle {
   font-size: 15px;
   margin-top: 10px;
+  font-family: Abel, serif;
 
   @media only screen and (max-width: 415px) {
     font-size: 18px;
@@ -53,6 +54,7 @@
 
 .responsibilities {
   font-size: 15px;
+  font-family: Abel, serif;
 
   @media only screen and (max-width: 415px) {
     font-size: 18px;
