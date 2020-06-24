@@ -13,6 +13,19 @@
   .degree {
     font-family: Abel, serif;
     margin: 0;
+    font-size: 18px;
+
+    @media only screen and (max-width: 415px) {
+      font-size: 20px;
+    }
+  }
+
+  .school {
+    font-size: 15px;
+
+    @media only screen and (max-width: 415px) {
+      font-size: 18px;
+    }
   }
 }
 
