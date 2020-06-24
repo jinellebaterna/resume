@@ -1,9 +1,21 @@
 .container {
   padding: 60px 60px 20px 60px;
 
-  .headline {
+  @media only screen and (max-width: 415px) {
+    padding: 20px 60px 20px 60px;
+  }
+
+  .title {
     font-family: Abel, serif;
     color: palevioletred;
     font-weight: bolder;
+  }
+
+  .headline {
+    font-size: 15px;
+
+    @media only screen and (max-width: 415px) {
+      font-size: 18px;
+    }
   }
 }
