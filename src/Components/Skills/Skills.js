@@ -38,6 +38,7 @@ class Skills extends React.Component {
             </p>
           </>
         )}
+        <div/>
         <Education />
       </div>
     );
