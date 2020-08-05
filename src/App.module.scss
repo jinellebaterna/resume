@@ -1,19 +1,19 @@
 .app {
   height: 100%;
-  //display: flex;
   width: 100%;
+  margin: auto;
 
   .header {
     display: flex;
-    background-color: black;
+    background-color: rgb(70, 70, 85);
     box-shadow: none;
 
     @media only screen and (max-width: 415px) {
       display: none;
     }
-  }
 
-  .container {
-    height: 200px;
+    .container {
+      margin: auto;
+    }
   }
 }

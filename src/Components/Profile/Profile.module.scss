@@ -1,12 +1,14 @@
+@import "../../styles/variables";
+
 .profile {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: palevioletred;
+  background-color: $secondaryColor;
   height: 100%;
   font-size: 15px;
   font-family: Abel, serif;
-  color: white;
+  color: $primaryColor;
   padding: 20px 40px;
 
   @media only screen and (max-width: 415px) {
@@ -42,8 +44,9 @@
     }
 
     .name {
-      color: white;
+      color: $primaryColor;
     }
+
     .position {
       font-size: 20px;
       margin-bottom: 10px;
@@ -77,15 +80,15 @@
       .icon {
         font-size: 20px;
         margin-right: 10px;
-        color: white;
+        color: $primaryColor;
 
         @media only screen and (max-width: 415px) {
           font-size: 24px;
         }
       }
 
-      .linkedIn {
-        color: white;
+      .link {
+        color: $primaryColor;
         text-decoration: none;
         cursor: pointer;
       }

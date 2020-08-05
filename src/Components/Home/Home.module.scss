@@ -1,0 +1,69 @@
+@import "../../styles/variables";
+
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $primaryColor;
+  color: $whiteColor;
+
+  .container {
+    margin: auto;
+
+    @media only screen and (max-width: 415px) {
+      padding: 30px;
+    }
+
+    .name {
+      margin-bottom: 0.5px;
+      margin-top: 0;
+    }
+
+    .typewriter {
+      flex-direction: column;
+      display: -webkit-inline-box;
+
+      @media only screen and (max-width: 415px) {
+        font-size: 25px;
+      }
+    }
+
+    .type {
+      padding-right: 5px;
+    }
+
+    .bar {
+      background-color: $whiteColor;
+      height: 3px;
+      flex-grow: 1;
+      width: 100%;
+
+      @media only screen and (max-width: 415px) {
+        flex-grow: 0;
+      }
+    }
+
+    .contact {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    .icon {
+      font-size: 40px;
+      margin-right: 20px;
+      color: $whiteColor;
+
+      @media only screen and (max-width: 415px) {
+        font-size: 35px;
+      }
+    }
+
+    .item {
+      color: $whiteColor;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
