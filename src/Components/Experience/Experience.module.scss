@@ -1,8 +1,10 @@
+@import "../../styles/variables";
+
 .container {
   display: flex;
   flex-direction: column;
   max-width: 850px;
-  padding-right: 200px;
+  padding-right: 170px;
 
   @media only screen and (max-width: 415px) {
     padding-right: 0;
@@ -10,7 +12,7 @@
 
   .experience {
     font-family: Abel, serif;
-    color: palevioletred;
+    color: $primaryColor;
     font-weight: bolder;
   }
 }

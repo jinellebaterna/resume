@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./App.module.scss";
-import { Content, Layout, Header, Navigation } from "react-mdl";
+import { Content, Layout, Header } from "react-mdl";
 import { Link } from "react-router-dom";
 import Main from "./Components/Main/Main";
+import Navigation from "./Components/Navigation/Navigation";
 
 class App extends React.Component {
   render() {
@@ -11,11 +12,7 @@ class App extends React.Component {
         <div>
           <Layout>
             <Header className={styles.header} title=" ">
-              <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-              </Navigation>
+              <Navigation />
             </Header>
             <Content>
               <Main/>
