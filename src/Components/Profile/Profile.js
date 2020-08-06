@@ -33,7 +33,7 @@ export default class Profile extends React.Component {
           <p className={styles.contacts}>
             <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
             <a
-              className={styles.linkedIn}
+              className={styles.link}
               href={"https://www.linkedin.com/in/jinellebaterna/"}
               rel="noopener noreferrer"
               target="_blank"

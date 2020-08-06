@@ -6,6 +6,7 @@ export default {
     mobileNumber: "(437) - 7881125",
     linkedIn: "linkedin.com/in/jinellebaterna",
     location: "Toronto, Ontario, Canada",
+    github: "github.com/jinellebaterna"
   },
   headline: {
     summary: "Highly motivated, Frontend Engineer seeking to launch a career building web applications and create high-quality products. My skills in Project Management and Account Management will be a significant asset for your team’s current and future needs. I am committed to continuing to grow as a leader and applying my talents to help lead the industry in creating innovative software solutions."

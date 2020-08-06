@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  margin-right: 50px;
+
+  @media only screen and (max-width: 550px) {
+    justify-content: space-between;
+  }
+
+  .menuItems {
+    display: flex;
+    flex-direction: row;
+
+    @media only screen and (max-width: 550px) {
+      display: none;
+    }
+
+    .menuItem {
+      font-family: "Roboto", sans-serif;
+      font-weight: 200;
+      font-size: 17px;
+      color: $whiteColor;
+      margin: 10px;
+      justify-content: center;
+
+      > a {
+        margin: auto;
+      }
+    }
+  }
+}

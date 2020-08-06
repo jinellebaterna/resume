@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.header {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: $primaryColor;
+  position: fixed;
+  z-index: 1000;
+  text-decoration: none;
+}

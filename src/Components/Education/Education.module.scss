@@ -1,3 +1,5 @@
+@import "../../styles/variables";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,7 @@
 
   .education {
     font-family: Abel, serif;
-    color: palevioletred;
+    color: $primaryColor;
     font-weight: bolder;
   }
 
