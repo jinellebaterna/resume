@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navigation.module.scss';
+import DrawerToggleButton from "../Drawer/DrawerToggleButton";
 
 class Navigation extends React.Component {
   render() {
-    // const { drawerClickHandler } = this.props;
+    const { drawerClickHandler } = this.props;
 
     return (
       <div className={styles.navigation}>
-        {/*<DrawerToggleButton click={drawerClickHandler} />*/}
+        <DrawerToggleButton click={drawerClickHandler} />
         <div className={styles.menuItems}>
           <Link to="/">
             <h3 className={styles.menuItem}>Home</h3>
