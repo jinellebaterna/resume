@@ -1,19 +1,12 @@
+@import "./styles/variables";
+
 .app {
+  background-color: $primaryColor;
   height: 100%;
-  width: 100%;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
 
-  .header {
-    display: flex;
-    background-color: rgb(70, 70, 85);
-    box-shadow: none;
-
-    @media only screen and (max-width: 415px) {
-      display: none;
-    }
-
-    .container {
-      margin: auto;
-    }
+  .content {
+    padding-top: 60px;
   }
 }
