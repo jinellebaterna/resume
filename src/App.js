@@ -12,7 +12,7 @@ class App extends React.Component {
       <div className={styles.app}>
        <BrowserRouter>
          <Header/>
-         <div className={styles.content}>
+         <div>
            <Route exact path="/" component={Home} />
            <Route path="/projects" component={Projects} />
            <Route path="/resume" component={Resume} />
