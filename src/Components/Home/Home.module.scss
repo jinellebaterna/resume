@@ -1,22 +1,22 @@
 @import "../../styles/variables";
 
 .home {
-  height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: $primaryColor;
   color: $whiteColor;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
   .container {
-    margin: auto;
+    //margin: auto;
 
     @media only screen and (max-width: 415px) {
-      padding: 30px;
+      padding: 20px;
     }
 
     .name {
       margin-bottom: 0.5px;
-      margin-top: 0;
     }
 
     .typewriter {
@@ -26,10 +26,11 @@
       @media only screen and (max-width: 415px) {
         font-size: 25px;
       }
-    }
 
-    .type {
-      padding-right: 5px;
+      .type {
+        padding-right: 5px;
+      }
+
     }
 
     .bar {
@@ -48,6 +49,9 @@
       display: flex;
       flex-direction: row;
 
+      > p {
+        margin: 0;
+      }
     }
 
     .icon {
@@ -58,12 +62,11 @@
       @media only screen and (max-width: 415px) {
         font-size: 35px;
       }
-    }
 
-    .item {
-      color: $whiteColor;
-      text-decoration: none;
-      cursor: pointer;
+      .item {
+        text-decoration: none;
+        cursor: pointer;
+      }
     }
   }
 }
